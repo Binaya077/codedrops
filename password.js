@@ -33,6 +33,7 @@ function myFunction1() {
 
 
   $(document).ready(function(){
+
     $("#secur,#notify").click(function(){
       $("form").hide();
       $("#psw").hide();
@@ -54,3 +55,22 @@ function myFunction1() {
      
     });
   });
+
+
+  $(document).ready(function(){
+
+    $(".setting").click(function(){
+      $(".main-body, .main").show();  
+      $(".main-body1,.main1").hide();     
+  
+    });
+    $("#prod").click(function(){
+      $(".main-body,.main").hide();     
+      $(".main-body1").show();  
+      $(".main1").show();  
+
+  
+    });
+   
+   
+   });
