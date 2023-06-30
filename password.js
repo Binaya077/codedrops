@@ -62,15 +62,27 @@ function myFunction1() {
     $(".setting").click(function(){
       $(".main-body, .main").show();  
       $(".main-body1,.main1").hide();     
+      $(".main-body2,.Addproducts").hide(); 
+      $(".main2,.main_top2").hide();  
   
     });
     $("#prod").click(function(){
       $(".main-body,.main").hide();     
       $(".main-body1").show();  
       $(".main1").show();  
+      $(".main-body2,.Addproducts").hide(); 
+      $(".main2,.main_top2").hide();  
 
   
     });
-   
-   
+    $("#newproduct").click(function(){
+     
+      $(".main-body,.main").hide(); 
+      $(".main-body1").hide();  
+      $(".main1").hide();  
+      $(".main-body2,.Addproducts").show(); 
+      $(".main-body2").show();  
+      $(".main2,.main_top2").show();  
+  
+    });
    });
