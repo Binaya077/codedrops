@@ -63,7 +63,8 @@ function myFunction1() {
       $(".main-body, .main").show();  
       $(".main-body1,.main1").hide();     
       $(".main-body2,.Addproducts").hide(); 
-      $(".main2,.main_top2").hide();  
+      $(".main2,.main_top2").hide(); 
+      $(".main3,.main_top3").hide();   
   
     });
     $("#prod").click(function(){
@@ -72,6 +73,7 @@ function myFunction1() {
       $(".main1").show();  
       $(".main-body2,.Addproducts").hide(); 
       $(".main2,.main_top2").hide();  
+      $(".main3,.main_top3").hide();  
 
   
     });
@@ -82,7 +84,19 @@ function myFunction1() {
       $(".main1").hide();  
       $(".main-body2,.Addproducts").show(); 
       $(".main-body2").show();  
-      $(".main2,.main_top2").show();  
+      $(".main2,.main_top2").show(); 
+      $(".main3,.main_top3").hide();   
+  
+    });
+    $("#dash").click(function(){
+     
+      $(".main-body,.main").hide(); 
+      $(".main-body1").hide();  
+      $(".main1").hide();  
+      $(".main-body2,.Addproducts").hide(); 
+      $(".main-body2").hide();  
+      $(".main2,.main_top2").hide();  
+      $(".main3,.main_top3").show();  
   
     });
    });
