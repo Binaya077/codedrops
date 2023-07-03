@@ -97,6 +97,7 @@ function myFunction1() {
       $(".main-body2").hide();  
       $(".main2,.main_top2").hide();  
       $(".main3,.main_top3").show();  
+      $(".main-body3").show();  
   
     });
    });
