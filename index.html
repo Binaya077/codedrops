@@ -13,7 +13,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="settingpassword.css" />
-    <script src="password.js"></script>
+    <script src="password.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -352,8 +352,8 @@
 
       <div class="main-body">
         <div class="anchortag">
-          <a class="active-link" href="#" id="pro">Profile</a>
-          <a href="#" id="pass">Password</a>
+          <a  href="#" id="pro" onclick="mypasswordprofile()">Profile</a>
+          <a href="#" id="pass" onclick="mypassword()">Password</a>
           <a href="#" id="secur">Security</a>
           <a href="#" id="notify">Notification</a>
         </div>
@@ -424,8 +424,8 @@
             </div>
           </div>
           <div id="border3"></div>
-          <input type="submit" value="Cancel" id="cancel" />
-          <input type="submit" value="Save" id="save" />
+          <input type="submit" value="Cancel" id="cancel" onclick="myFunctioncancel1()" />
+          <input type="submit" value="Save" id="save"onclick="myFunctionsave1()" />
         </form>
 
         <!--PROFILE PART-->
@@ -483,8 +483,8 @@
           </div>
 
           <div id="pborder6"></div>
-          <input type="submit" value="Cancel" id="cancel1" />
-          <input type="submit" value="Save" id="save1" />
+          <input type="submit" value="Cancel" id="cancel1" onclick="myFunctioncancel()" />
+          <input type="submit" value="Save" id="save1" onclick="myFunctionsave()"/>
         </div>
       </div>
 
@@ -883,8 +883,8 @@
             </div>
           </div>
         </div>
-        <input type="submit" value="Cancel" id="cancel2" />
-        <input type="submit" value="Save" id="save2" />
+        <input type="submit" value="Cancel" id="cancel2" onclick="myFunctioncancel2()" />
+        <input type="submit" value="Save" id="save2" onclick="myFunctionsave2()"/>
       </div>
       <!--Dashboard part-->
       <section class="main3">
