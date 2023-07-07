@@ -31,74 +31,74 @@ function myFunction1() {
     x.style.borderRadius = '6px';
   }
 
-     function mypassword()
-     {
-      var x = document.getElementById("pro");
-      var y=document.getElementById("pass");
-      x.style.background='none';
-      x.style.color='#555353';
-      y.style.background = "#eee";
-      y.style.color = "#475BE8";
-     }
-     function mypasswordprofile()
-     {
-      var x=document.getElementById("pass");
-       var y = document.getElementById("pro");
-      x.style.background = "none";
-      x.style.color = "#555353";
-      y.style.background = "#eee";
-      y.style.color = "#475BE8";
-     }
-     function myFunctioncancel1()
-     {
-      var x = document.getElementById("save");
-      x.style.background = "none";
-      x.style.color = "black";
-       var y = document.getElementById("cancel");
-          y.style.background = "#475BE8";
-          y.style.color = "white";
-     }
-     function myFunctionsave1()
-     {
-      var x = document.getElementById("save");
-      x.style.background = "#475BE8";
-      x.style.color = "white";
-      var y = document.getElementById("cancel");
-      y.style.background = "none";
-      y.style.color = "black";
-     }
-     function myFunctioncancel() {
-       var x = document.getElementById("save1");
-       x.style.background = "none";
-       x.style.color = "black";
-       var y = document.getElementById("cancel1");
-       y.style.background = "#475BE8";
-       y.style.color = "white";
-     }
-     function myFunctionsave() {
-       var x = document.getElementById("save1");
-       x.style.background = "#475BE8";
-       x.style.color = "white";
-       var y = document.getElementById("cancel1");
-       y.style.background = "none";
-       y.style.color = "black";
-     }
-     function myFunctioncancel2() {
-     var x = document.getElementById("save2");
-     x.style.background = "none";
-     x.style.color = "black";
-     var y = document.getElementById("cancel2");
-     y.style.background = "#475BE8";
-     y.style.color = "white";
-     }
-     function myFunctionsave2() {
-        var x = document.getElementById("save2");
-        x.style.background = "#475BE8";
-        x.style.color = "white";
-        var y = document.getElementById("cancel2");
-        y.style.background = "none";
-        y.style.color = "black";
-     }
+    //  function mypassword()
+    //  {
+    //   var x = document.getElementById("pro");
+    //   var y=document.getElementById("pass");
+    //   x.style.background='none';
+    //   x.style.color='#555353';
+    //   y.style.background = "#eee";
+    //   y.style.color = "#475BE8";
+    //  }
+    //  function mypasswordprofile()
+    //  {
+    //   var x=document.getElementById("pass");
+    //    var y = document.getElementById("pro");
+    //   x.style.background = "none";
+    //   x.style.color = "#555353";
+    //   y.style.background = "#eee";
+    //   y.style.color = "#475BE8";
+    //  }
+    //  function myFunctioncancel1()
+    //  {
+    //   var x = document.getElementById("save");
+    //   x.style.background = "none";
+    //   x.style.color = "black";
+    //    var y = document.getElementById("cancel");
+    //       y.style.background = "#475BE8";
+    //       y.style.color = "white";
+    //  }
+    //  function myFunctionsave1()
+    //  {
+    //   var x = document.getElementById("save");
+    //   x.style.background = "#475BE8";
+    //   x.style.color = "white";
+    //   var y = document.getElementById("cancel");
+    //   y.style.background = "none";
+    //   y.style.color = "black";
+    //  }
+    //  function myFunctioncancel() {
+    //    var x = document.getElementById("save1");
+    //    x.style.background = "none";
+    //    x.style.color = "black";
+    //    var y = document.getElementById("cancel1");
+    //    y.style.background = "#475BE8";
+    //    y.style.color = "white";
+    //  }
+    //  function myFunctionsave() {
+    //    var x = document.getElementById("save1");
+    //    x.style.background = "#475BE8";
+    //    x.style.color = "white";
+    //    var y = document.getElementById("cancel1");
+    //    y.style.background = "none";
+    //    y.style.color = "black";
+    //  }
+    //  function myFunctioncancel2() {
+    //  var x = document.getElementById("save2");
+    //  x.style.background = "none";
+    //  x.style.color = "black";
+    //  var y = document.getElementById("cancel2");
+    //  y.style.background = "#475BE8";
+    //  y.style.color = "white";
+    //  }
+    //  function myFunctionsave2() {
+    //     var x = document.getElementById("save2");
+    //     x.style.background = "#475BE8";
+    //     x.style.color = "white";
+    //     var y = document.getElementById("cancel2");
+    //     y.style.background = "none";
+    //     y.style.color = "black";
+    //  }
  
   $(document).ready(function(){
 
