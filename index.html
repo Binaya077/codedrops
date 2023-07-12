@@ -22,7 +22,8 @@
           <li>
             <a href="#" class="logo">
               <!-- <i class="fa-solid fa-house" id="house" style="color: #475be8"></i> -->
-              <svg id="house"
+              <svg
+                id="house"
                 width="44"
                 height="44"
                 viewBox="0 0 44 44"
@@ -150,10 +151,11 @@
             </a>
           </li>
           <li>
-            <a href="#" class="transaction" id="dash">
+            <a href="#" class="transaction" id="dash" onclick="mynavfunction()">
               <!-- <i class="fa-solid fa-chart-line" style="color: #c3c6d1"></i> -->
               <svg
                 class="icon"
+                id="icon1"
                 width="16"
                 height="16"
                 viewBox="0 0 16 16"
@@ -170,10 +172,16 @@
             </a>
           </li>
           <li>
-            <a href="#" class="transaction" id="prod">
+            <a
+              href="#"
+              class="transaction"
+              id="prod"
+              onclick="mynavfunction1()"
+            >
               <!-- <i class="fa-solid fa-briefcase" style="color: #c3c6d1"></i> -->
               <svg
                 class="icon"
+                id="icon2"
                 width="16"
                 height="16"
                 viewBox="0 0 16 16"
@@ -363,10 +371,16 @@
           </li>
 
           <li>
-            <a href="#" class="setting">
+            <a
+              href="#"
+              class="setting"
+              id="settingnav"
+              onclick="mynavfunction2()"
+            >
               <!-- <i class="fa-solid fa-gear" style="color: #c3c6d1"></i> -->
               <svg
                 class="icon"
+                id="icon3"
                 width="16"
                 height="16"
                 viewBox="0 0 16 16"
@@ -598,300 +612,317 @@
             <th>Action</th>
           </tr>
           <tr>
-            <td id="dot">01</td>
+            <td>01</td>
             <td>
-              <div class ="main-parent">
-
+              <div class="main-parent">
                 <div class="mobimg"><img src="image.png" /></div>
                 <div class="iphone">iphone 13 pro</div>
               </div>
             </td>
-            <td id="dot1">Mobile</td>
-            <td id="dot1">Apple</td>
+            <td>Mobile</td>
+            <td>Apple</td>
             <td>
               <div class="main-parent">
-              <div class="mobimg">
+                <div class="mobimg">
+                  <svg
+                    width="8"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
+                  </svg>
+                </div>
+                <div class="iphone">25 in stock</div>
+              </div>
+            </td>
+            <td>$400.00</td>
+            <td id="dot1">
               <svg
-                width="8"
-                height="8"
-                viewBox="0 0 9 8"
+                width="21"
+                height="5"
+                viewBox="0 0 21 5"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
+                <path
+                  d="M2.42308 5C1.78044 5 1.16412 4.73661 0.709703 4.26777C0.255288 3.79893 0 3.16304 0 2.5C0 1.83696 0.255288 1.20107 0.709703 0.732233C1.16412 0.263392 1.78044 0 2.42308 0C3.06572 0 3.68204 0.263392 4.13645 0.732233C4.59087 1.20107 4.84615 1.83696 4.84615 2.5C4.84615 3.16304 4.59087 3.79893 4.13645 4.26777C3.68204 4.73661 3.06572 5 2.42308 5ZM10.5 5C9.85736 5 9.24104 4.73661 8.78662 4.26777C8.33221 3.79893 8.07692 3.16304 8.07692 2.5C8.07692 1.83696 8.33221 1.20107 8.78662 0.732233C9.24104 0.263392 9.85736 0 10.5 0C11.1426 0 11.759 0.263392 12.2134 0.732233C12.6678 1.20107 12.9231 1.83696 12.9231 2.5C12.9231 3.16304 12.6678 3.79893 12.2134 4.26777C11.759 4.73661 11.1426 5 10.5 5ZM18.5769 5C17.9343 5 17.318 4.73661 16.8635 4.26777C16.4091 3.79893 16.1538 3.16304 16.1538 2.5C16.1538 1.83696 16.4091 1.20107 16.8635 0.732233C17.318 0.263392 17.9343 0 18.5769 0C19.2196 0 19.8359 0.263392 20.2903 0.732233C20.7447 1.20107 21 1.83696 21 2.5C21 3.16304 20.7447 3.79893 20.2903 4.26777C19.8359 4.73661 19.2196 5 18.5769 5Z"
+                  fill="#292929"
+                />
               </svg>
-              </div>
-              <div class="iphone">25 in stock</div>
-            </div>
-            </td>
-            <td id="dot1">$400.00</td>
-            <td id="dot"><b>...</b></td>
-          </tr>
-          <tr>
-            <td id="dot">02</td>
-            <td>
-              <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Macbook pro</div>
-              </div>
-            </td>
-            <td id="dot1">Laptop</td>
-            <td id="dot1">Apple</td>
-            <td>
-               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#F29A2E" />
-              </svg>
-              </div>
-              <div class="iphone">Preorder</div>
-              </div>
-            </td>
-            <td id="dot1">$288.00</td>
-            <td id="dot"><b>...</b></td>
-          </tr>
-          <tr>
-            <td id="dot">03</td>
-            <td>
-              <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Apple Watch</div>
-              </div>
-            </td>
-            <td id="dot1">Watch</td>
-            <td id="dot1">Apple</td>
-            <td >
-                <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#EF0606" />
-              </svg>
-              </div>
-              <div class="iphone">out of stock</div>
-              </div>
-            </td>
-            <td id="dot1">$500.00</td>
-            <td id="dot"><b>...</b></td>
-          </tr>
-          <tr>
-            <td id="dot">04</td>
-            <td>
-             <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Microsoft Book</div>
-              </div>
-            </td>
-            <td id="dot1">E-book</td>
-            <td id="dot1">Microsoft</td>
-            <td>
-               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
-              </svg>
-              </div>
 
-              <div class="iphone">25 in stock</div>
+              <div id="subContent1" class="d-none">
+                <p id="edi">Edit</p>
+                <p id="del">Delete</p>
               </div>
             </td>
-            <td id="dot1">$100.00</td>
-            <td id="dot"><b>...</b></td>
           </tr>
           <tr>
-            <td id="dot">05</td>
+            <td>02</td>
             <td>
-             <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Apple pen</div>
+              <div class="main-parent">
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Macbook pro</div>
               </div>
             </td>
-            <td id="dot1">Technology</td>
-            <td id="dot1">Apple</td>
+            <td>Laptop</td>
+            <td>Apple</td>
             <td>
-               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
-              </svg>
+              <div class="main-parent">
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#F29A2E" />
+                  </svg>
+                </div>
+                <div class="iphone">Preorder</div>
               </div>
+            </td>
+            <td>$288.00</td>
+            <td id="dot2"><b>...</b></td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Apple Watch</div>
+              </div>
+            </td>
+            <td>Watch</td>
+            <td>Apple</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#EF0606" />
+                  </svg>
+                </div>
+                <div class="iphone">out of stock</div>
+              </div>
+            </td>
+            <td>$500.00</td>
+            <td id="dot3"><b>...</b></td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Microsoft Book</div>
+              </div>
+            </td>
+            <td>E-book</td>
+            <td>Microsoft</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
+                  </svg>
+                </div>
 
-           <div class="iphone"> 10 in stock</div>
-           </div>
+                <div class="iphone">25 in stock</div>
+              </div>
             </td>
-            <td id="dot1">$60.00</td>
-            <td id="dot"><b>...</b></td>
+            <td>$100.00</td>
+            <td id="dot4"><b>...</b></td>
           </tr>
           <tr>
-            <td id="dot">06</td>
-            <td>
-            <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Airpods</div>
-              </div>
-            </td>
-            <td id="dot1">Earphone</td>
-            <td id="dot1">Apple</td>
-            <td>
-               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
-              </svg>
-              </div>
-              
-              <div class="iphone">20 in stock</div>
-              </div>
-            </td>
-            <td id="dot1">$80.00</td>
-            <td id="dot"><b>...</b></td>
-          </tr>
-          <tr>
-            <td id="dot">07</td>
-            <td>
-             <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">iphone 13 pro</div>
-              </div>
-            </td>
-            <td id="dot1">Mobile</td>
-            <td id="dot1">Apple</td>
+            <td>05</td>
             <td>
               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="8"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
-              </svg>
-              </div>
-              <div class="iphone">25 in stock</div>
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Apple pen</div>
               </div>
             </td>
-            <td id="dot1">$400.00</td>
-            <td id="dot"><b>...</b></td>
-          </tr>
-          <tr>
-            <td id="dot">08</td>
-            <td>
-              <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Macbook pro</div>
-              </div>
-            </td>
-            <td id="dot1">Laptop</td>
-            <td id="dot1">Apple</td>
+            <td>Technology</td>
+            <td>Apple</td>
             <td>
               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#F29A2E" />
-              </svg>
-              </div>
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
+                  </svg>
+                </div>
 
-              <div class class="iphone">Preorder</div>
+                <div class="iphone">10 in stock</div>
               </div>
             </td>
-            <td id="dot1">$288.00</td>
-            <td id="dot"><b>...</b></td>
+            <td>$60.00</td>
+            <td id="dot5"><b>...</b></td>
           </tr>
           <tr>
-            <td id="dot">09</td>
-            <td>
-           <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Apple watch</div>
-              </div>
-            </td>
-            <td id="dot1">Watch</td>
-            <td id="dot1">Apple</td>
+            <td>06</td>
             <td>
               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#EF0606" />
-              </svg>
-              </div>
-              <div class="iphone">Out of stock</div>
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Airpods</div>
               </div>
             </td>
-            <td id="dot1">$500.00</td>
-            <td id="dot"><b>...</b></td>
-          </tr>
-          <tr>
-            <td id="dot">10</td>
-            <td>
-             <div class ="main-parent">
-               <div class="mobimg"><img src="image.png" /></div>
-              <div class="iphone">Microsoft Book</div>
-              </div>
-            </td>
-            <td id="dot1">E-book</td>
-            <td id="dot1">Microsoft</td>
+            <td>Earphone</td>
+            <td>Apple</td>
             <td>
               <div class="main-parent">
-              <div class="mobimg">
-              <svg
-                width="9"
-                height="8"
-                viewBox="0 0 9 8"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
-              </svg>
-              </div>
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
+                  </svg>
+                </div>
 
-              <div class="iphone">9 in stock</div>
+                <div class="iphone">20 in stock</div>
               </div>
             </td>
-            <td id="dot1">$100.00</td>
-            <td id="dot"><b>...</b></td>
+            <td>$80.00</td>
+            <td id="dot6"><b>...</b></td>
+          </tr>
+          <tr>
+            <td>07</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">iphone 13 pro</div>
+              </div>
+            </td>
+            <td>Mobile</td>
+            <td>Apple</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg">
+                  <svg
+                    width="8"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
+                  </svg>
+                </div>
+                <div class="iphone">25 in stock</div>
+              </div>
+            </td>
+            <td>$400.00</td>
+            <td id="dot7"><b>...</b></td>
+          </tr>
+          <tr>
+            <td>08</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Macbook pro</div>
+              </div>
+            </td>
+            <td>Laptop</td>
+            <td>Apple</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#F29A2E" />
+                  </svg>
+                </div>
+
+                <div class class="iphone">Preorder</div>
+              </div>
+            </td>
+            <td>$288.00</td>
+            <td id="dot8"><b>...</b></td>
+          </tr>
+          <tr>
+            <td>09</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Apple watch</div>
+              </div>
+            </td>
+            <td>Watch</td>
+            <td>Apple</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#EF0606" />
+                  </svg>
+                </div>
+                <div class="iphone">Out of stock</div>
+              </div>
+            </td>
+            <td>$500.00</td>
+            <td id="dot9"><b>...</b></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg"><img src="image.png" /></div>
+                <div class="iphone">Microsoft Book</div>
+              </div>
+            </td>
+            <td>E-book</td>
+            <td>Microsoft</td>
+            <td>
+              <div class="main-parent">
+                <div class="mobimg">
+                  <svg
+                    width="9"
+                    height="8"
+                    viewBox="0 0 9 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="4.33325" cy="4" r="4" fill="#4CE13F" />
+                  </svg>
+                </div>
+
+                <div class="iphone">9 in stock</div>
+              </div>
+            </td>
+            <td>$100.00</td>
+            <td id="dot10"><b>...</b></td>
           </tr>
         </table>
       </div>
@@ -1647,12 +1678,12 @@
               <th>Action</th>
             </tr>
             <tr>
-              <td id="dot1">#1132</td>
-              <td id="dot1">Iphone 13 Pro</td>
-              <td id="dot1">Jun 29,2022</td>
-              <td id="dot1">Afaq Karim</td>
-              <td id="dot1">Nepal</td>
-              <td id="dot1">
+              <td>#1132</td>
+              <td>Iphone 13 Pro</td>
+              <td>Jun 29,2022</td>
+              <td>Afaq Karim</td>
+              <td>Nepal</td>
+              <td>
                 <svg
                   width="9"
                   height="8"
@@ -1664,16 +1695,16 @@
                 </svg>
                 Delivered
               </td>
-              <td id="dot1">$400.00</td>
+              <td>$400.00</td>
               <td id="dot"><b>...</b></td>
             </tr>
             <tr>
-              <td id="dot1">#1132</td>
-              <td id="dot1">Macbook Pro</td>
-              <td id="dot1">Jun 29,2022</td>
-              <td id="dot1">Afaq Karim</td>
-              <td id="dot1">India</td>
-              <td id="dot1">
+              <td>#1132</td>
+              <td>Macbook Pro</td>
+              <td>Jun 29,2022</td>
+              <td>Afaq Karim</td>
+              <td>India</td>
+              <td>
                 <svg
                   width="9"
                   height="8"
@@ -1685,16 +1716,16 @@
                 </svg>
                 Pending
               </td>
-              <td id="dot1">$288.00</td>
+              <td>$288.00</td>
               <td id="dot"><b>...</b></td>
             </tr>
             <tr>
-              <td id="dot1">#1132</td>
-              <td id="dot1">Apple Watch</td>
-              <td id="dot1">Jun 29,2022</td>
-              <td id="dot1">Afaq Karim</td>
-              <td id="dot1">Canada</td>
-              <td id="dot1">
+              <td>#1132</td>
+              <td>Apple Watch</td>
+              <td>Jun 29,2022</td>
+              <td>Afaq Karim</td>
+              <td>Canada</td>
+              <td>
                 <svg
                   width="9"
                   height="8"
@@ -1707,17 +1738,17 @@
 
                 Cancel
               </td>
-              <td id="dot1">$500.00</td>
+              <td>$500.00</td>
               <td id="dot"><b>...</b></td>
             </tr>
 
             <tr>
-              <td id="dot1">#1132</td>
-              <td id="dot1">Microsoft Book</td>
-              <td id="dot1">Jun 29,2022</td>
-              <td id="dot1">Afaq Karim</td>
-              <td id="dot1">USA</td>
-              <td id="dot1">
+              <td>#1132</td>
+              <td>Microsoft Book</td>
+              <td>Jun 29,2022</td>
+              <td>Afaq Karim</td>
+              <td>USA</td>
+              <td>
                 <svg
                   width="9"
                   height="8"
@@ -1729,16 +1760,16 @@
                 </svg>
                 Delivered
               </td>
-              <td id="dot1">$100.00</td>
+              <td>$100.00</td>
               <td id="dot"><b>...</b></td>
             </tr>
             <tr>
-              <td id="dot1">#1132</td>
-              <td id="dot1">Apple Pen</td>
-              <td id="dot1">Jun 29,2022</td>
-              <td id="dot1">Afaq Karim</td>
-              <td id="dot1">UK</td>
-              <td id="dot1">
+              <td>#1132</td>
+              <td>Apple Pen</td>
+              <td>Jun 29,2022</td>
+              <td>Afaq Karim</td>
+              <td>UK</td>
+              <td>
                 <svg
                   width="9"
                   height="8"
@@ -1750,16 +1781,16 @@
                 </svg>
                 Delivered
               </td>
-              <td id="dot1">$60.00</td>
+              <td>$60.00</td>
               <td id="dot"><b>...</b></td>
             </tr>
             <tr>
-              <td id="dot1">#1132</td>
-              <td id="dot1">Airpods</td>
-              <td id="dot1">Jun 29,2022</td>
-              <td id="dot1">Afaq Karim</td>
-              <td id="dot1">Bangladesh</td>
-              <td id="dot1">
+              <td>#1132</td>
+              <td>Airpods</td>
+              <td>Jun 29,2022</td>
+              <td>Afaq Karim</td>
+              <td>Bangladesh</td>
+              <td>
                 <svg
                   width="9"
                   height="8"
@@ -1771,7 +1802,7 @@
                 </svg>
                 Delivered
               </td>
-              <td id="dot1">$80.00</td>
+              <td>$80.00</td>
               <td id="dot"><b>...</b></td>
             </tr>
           </table>

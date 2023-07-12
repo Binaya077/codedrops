@@ -99,6 +99,78 @@ function myFunction1() {
     //     y.style.background = "none";
     //     y.style.color = "black";
     //  }
+
+      function mynavfunction()
+      {
+           var x = document.getElementById("dash");
+            x.style.background = "#475BE8";
+             x.style.borderRadius = "12px";
+            var y = document.getElementById("payment");
+                 y.style.color = "white";
+             var z = document.getElementById("icon1");
+            z.style.color = "white";
+             var x = document.getElementById("prod");
+             x.style.color = "#808191";
+             x.style.background = "none";
+             var y = document.getElementById("products");
+             y.style.color = "#808191";
+             var z = document.getElementById("icon2");
+             z.style.color = "#808191";
+                var x = document.getElementById("settingnav");
+                x.style.color = "#808191";
+                x.style.background = "none";
+                var y = document.getElementById("set");
+                y.style.color = "#808191";
+                var z = document.getElementById("icon3");
+                z.style.color = "#808191";
+           
+      }
+      function mynavfunction1() {
+        var x = document.getElementById("prod");
+        x.style.background = "#475BE8";
+        x.style.borderRadius = "12px";
+        var y = document.getElementById("products");
+        y.style.color = "white";
+        var z = document.getElementById("icon2");
+        z.style.color = "white";
+        var x=document.getElementById("dash");
+          x.style.color = "#808191";
+          x.style.background="none";
+         var y = document.getElementById("payment");
+         y.style.color = "#808191";
+         var z  = document.getElementById("icon1");
+         z.style.color = "#808191";
+          var x = document.getElementById("settingnav");
+          x.style.color = "#808191";
+          x.style.background = "none";
+          var y = document.getElementById("set");
+          y.style.color = "#808191";
+          var z = document.getElementById("icon3");
+          z.style.color = "#808191";
+      }
+      function mynavfunction2() {
+        var x = document.getElementById("settingnav");
+        x.style.background = "#475BE8";
+        x.style.borderRadius = "12px";
+        var y = document.getElementById("set");
+        y.style.color = "white";
+        var z = document.getElementById("icon3");
+        z.style.color = "white";
+        var x = document.getElementById("dash");
+        x.style.color = "#808191";
+        x.style.background = "none";
+        var y = document.getElementById("payment");
+        y.style.color = "#808191";
+        var z = document.getElementById("icon1");
+        z.style.color = "#808191";
+         var x = document.getElementById("prod");
+         x.style.color = "#808191";
+         x.style.background = "none";
+         var y = document.getElementById("products");
+         y.style.color = "#808191";
+         var z = document.getElementById("icon2");
+         z.style.color = "#808191";
+      }
  
   $(document).ready(function(){
 
@@ -169,5 +241,8 @@ function myFunction1() {
       $(".main-body3").show();  
   
     });
+   });
+   document.getElementById("dot1").addEventListener("click", function () {
+     document.getElementById("subContent1").classList.toggle("d-none");
    });
  
