@@ -4,11 +4,11 @@ window.onload = function () {
 
   // Data for the progress chart
   var progressData = [
-    { name: "jeans", progress: 70, color: "#475BE8" },
-    { name: "shirts", progress: 40, color: "#475BE8" },
-    { name: "belts", progress: 60, color: "#475BE8" },
-    { name: "caps", progress: 80, color: "#475BE8" },
-    { name: "others", progress: 20, color: "#475BE8" },
+    { name: "Jeans", progress: 70, color: "#475BE8" },
+    { name: "Shirts", progress: 40, color: "#475BE8" },
+    { name: "Belts", progress: 60, color: "#475BE8" },
+    { name: "Caps", progress: 80, color: "#475BE8" },
+    { name: "Others", progress: 20, color: "#475BE8" },
     // Add more progress data objects as needed
   ];
   context.fillStyle = "#292929";

@@ -30,74 +30,22 @@ function myFunction2() {
   x.style.borderRadius = "6px";
 }
 
-//  function mypassword()
-//  {
-//   var x = document.getElementById("pro");
-//   var y=document.getElementById("pass");
-//   x.style.background='none';
-//   x.style.color='#555353';
-//   y.style.background = "#eee";
-//   y.style.color = "#475BE8";
-//  }
-//  function mypasswordprofile()
-//  {
-//   var x=document.getElementById("pass");
-//    var y = document.getElementById("pro");
-//   x.style.background = "none";
-//   x.style.color = "#555353";
-//   y.style.background = "#eee";
-//   y.style.color = "#475BE8";
-//  }
-//  function myFunctioncancel1()
-//  {
-//   var x = document.getElementById("save");
-//   x.style.background = "none";
-//   x.style.color = "black";
-//    var y = document.getElementById("cancel");
-//       y.style.background = "#475BE8";
-//       y.style.color = "white";
-//  }
-//  function myFunctionsave1()
-//  {
-//   var x = document.getElementById("save");
-//   x.style.background = "#475BE8";
-//   x.style.color = "white";
-//   var y = document.getElementById("cancel");
-//   y.style.background = "none";
-//   y.style.color = "black";
-//  }
-//  function myFunctioncancel() {
-//    var x = document.getElementById("save1");
-//    x.style.background = "none";
-//    x.style.color = "black";
-//    var y = document.getElementById("cancel1");
-//    y.style.background = "#475BE8";
-//    y.style.color = "white";
-//  }
-//  function myFunctionsave() {
-//    var x = document.getElementById("save1");
-//    x.style.background = "#475BE8";
-//    x.style.color = "white";
-//    var y = document.getElementById("cancel1");
-//    y.style.background = "none";
-//    y.style.color = "black";
-//  }
-//  function myFunctioncancel2() {
-//  var x = document.getElementById("save2");
-//  x.style.background = "none";
-//  x.style.color = "black";
-//  var y = document.getElementById("cancel2");
-//  y.style.background = "#475BE8";
-//  y.style.color = "white";
-//  }
-//  function myFunctionsave2() {
-//     var x = document.getElementById("save2");
-//     x.style.background = "#475BE8";
-//     x.style.color = "white";
-//     var y = document.getElementById("cancel2");
-//     y.style.background = "none";
-//     y.style.color = "black";
-//  }
+function mypassword() {
+  var x = document.getElementById("pro");
+  var y = document.getElementById("pass");
+  x.style.background = "none";
+  x.style.color = "#555353";
+  y.style.background = "#eee";
+  y.style.color = "#475BE8";
+}
+function mypasswordprofile() {
+  var x = document.getElementById("pass");
+  var y = document.getElementById("pro");
+  x.style.background = "none";
+  x.style.color = "#555353";
+  y.style.background = "#eee";
+  y.style.color = "#475BE8";
+}
 
 function mynavfunction() {
   var x = document.getElementById("dash");
@@ -224,53 +172,63 @@ $(document).ready(function () {
     $(".main-body3").show();
   });
 });
+function toggleMenuView(id) {
+  const menuItems = document.querySelectorAll(".subContent");
+  for(let menu of menuItems) {
+    if(menu.classList.contains(id)) {
+      menu.classList.toggle("d-none")
+    } else {
+      menu.classList.add("d-none")
+    }
+  }
+}
 document.getElementById("dot1").addEventListener("click", function () {
-  document.getElementById("subContent1").classList.toggle("d-none");
+  toggleMenuView("subContent1");
 });
 document.getElementById("dot2").addEventListener("click", function () {
-  document.getElementById("subContent2").classList.toggle("d-none");
+  toggleMenuView("subContent2");
 });
 document.getElementById("dot3").addEventListener("click", function () {
-  document.getElementById("subContent3").classList.toggle("d-none");
+  toggleMenuView("subContent3");
 });
 document.getElementById("dot4").addEventListener("click", function () {
-  document.getElementById("subContent4").classList.toggle("d-none");
+  toggleMenuView("subContent4");
 });
 document.getElementById("dot5").addEventListener("click", function () {
-  document.getElementById("subContent5").classList.toggle("d-none");
+toggleMenuView("subContent5");
 });
 document.getElementById("dot6").addEventListener("click", function () {
-  document.getElementById("subContent6").classList.toggle("d-none");
+toggleMenuView("subContent6");
 });
 document.getElementById("dot7").addEventListener("click", function () {
-  document.getElementById("subContent7").classList.toggle("d-none");
+ toggleMenuView("subContent7");
 });
 document.getElementById("dot8").addEventListener("click", function () {
-  document.getElementById("subContent8").classList.toggle("d-none");
+ toggleMenuView("subContent8");
 });
- document.getElementById("dot9").addEventListener("click", function () {
-   document.getElementById("subContent9").classList.toggle("d-none");
- });
-  document.getElementById("dot10").addEventListener("click", function () {
-    document.getElementById("subContent10").classList.toggle("d-none");
-  });
+document.getElementById("dot9").addEventListener("click", function () {
+  toggleMenuView("subContent9");
+});
+document.getElementById("dot10").addEventListener("click", function () {
+toggleMenuView("subContent10");
+});
 
-  //dashboard table Js
-  document.getElementById("dot11").addEventListener("click", function () {
-    document.getElementById("subContent11").classList.toggle("d-none");
-  });
-   document.getElementById("dot12").addEventListener("click", function () {
-     document.getElementById("subContent12").classList.toggle("d-none");
-   });
-    document.getElementById("dot13").addEventListener("click", function () {
-      document.getElementById("subContent13").classList.toggle("d-none");
-    });
-  document.getElementById("dot14").addEventListener("click", function () {
-    document.getElementById("subContent14").classList.toggle("d-none");
-  });
-   document.getElementById("dot15").addEventListener("click", function () {
-     document.getElementById("subContent15").classList.toggle("d-none");
-   });
-   document.getElementById("dot16").addEventListener("click", function () {
-     document.getElementById("subContent16").classList.toggle("d-none");
-   });
+//dashboard table Js
+document.getElementById("dot11").addEventListener("click", function () {
+  toggleMenuView("subContent11");
+});
+document.getElementById("dot12").addEventListener("click", function () {
+ toggleMenuView("subContent12");
+});
+document.getElementById("dot13").addEventListener("click", function () {
+ toggleMenuView("subContent13");
+});
+document.getElementById("dot14").addEventListener("click", function () {
+ toggleMenuView("subContent14");
+});
+document.getElementById("dot15").addEventListener("click", function () {
+toggleMenuView("subContent15");
+});
+document.getElementById("dot16").addEventListener("click", function () {
+ toggleMenuView("subContent16");
+});
