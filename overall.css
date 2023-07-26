@@ -962,8 +962,17 @@ input[type="submit"] {
 .delete {
   cursor: pointer;
 }
+.delete:hover
+{
+  border-radius: 10px;
+  background-color:#e4e7eb;
+}
 .edit {
   cursor: pointer;
+}
+.edit:hover{
+  border-radius: 10px;
+  background-color:#e4e7eb;
 }
 th {
   /* background: #f2f4ff; */

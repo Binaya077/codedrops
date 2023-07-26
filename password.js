@@ -39,3 +39,25 @@ for (let button of navButtons) {
     document.getElementById("prod").classList.add("transaction-active");
   }
 }
+function deleteRow(button) {
+  // Get the parent row of the clicked button
+  const row = button.closest("tr");
+
+  // Show a SweetAlert confirmation modal
+  Swal.fire({
+    title: "Are you sure?",
+    text: "You won't be able to revert this!",
+    icon: "warning",
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Yes, delete it!",
+  }).then((result) => {
+    if (result.isConfirmed) {
+      // If the user confirms the deletion, remove the row
+      row.remove();
+      // Show a success message
+      Swal.fire("Deleted!", "Your row has been deleted.", "success");
+    }
+  });
+}
