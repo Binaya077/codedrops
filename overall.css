@@ -200,31 +200,33 @@ a:hover {
   color: #292929;
   font-family: "Lato";
 }
-.main2 h1 {
+.main2 {
   position: absolute;
-  margin-top: 80px;
-  width: 65%;
-  background-color: #369eff;
-  height: 60px;
-  color: #ffffff;
-  padding: 10px;
-  margin-left: 21%;
+  right: 30px;
+  left: 30px;
+  top: -30px;
   border-radius: 10px;
-  border: 1px solid #369eff;
+  padding: 10px;
+  background-color: #309cff;
+  display: flex;
+  justify-content: space-between;
 }
-
-/* .main-top2 h1 {
-  font-size: 22px;
-  font-weight: 700;
-  padding-top:10px;
-  color: #292929;
-  font-family: "Lato";
-} */
+.main2 h1 {
+  color: #fff;
+}
+.main2 a {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 7px 13px;
+  color: #309cff;
+  background-color: #fff;
+  border-radius: 4px;
+}
 
 .main3 {
   position: absolute;
   margin-top: 38px;
-  width: 82%;
+  width: 84%;
   height: 30px;
   left: 200px;
 }
@@ -363,6 +365,7 @@ a:hover {
   /* overflow: scroll; */
 }
 .main-body2 {
+  position: relative;
   margin-top: 111px;
   margin-left: 235px;
   margin-bottom: 1%;
@@ -899,21 +902,6 @@ input[type="submit"] {
   border-radius: 6px;
   padding: 10px 10px 0px 14px;
 }
-#newproducts {
-  position: absolute;
-  right: 230px;
-  top: 90px;
-  background-color: white;
-  color: #309cff;
-  font-family: "lato";
-  border: 1px solid #309cff;
-  width: 113px;
-  height: 41px;
-  gap: 23px;
-  border-radius: 6px;
-  padding: 10px 10px 0px 40px;
-}
-
 .latestorder {
   width: fit-content;
   margin-top: 2%;
@@ -1334,10 +1322,9 @@ td {
     color: #292929;
     font-family: "Lato";
   }
-  .main-top1 h1
-  {
+  .main-top1 h1 {
     position: absolute;
-    left:15px;
+    left: 15px;
   }
   .main {
     position: absolute;
@@ -1356,7 +1343,6 @@ td {
     right: 0px;
     top: 0;
   }
-
 
   #pfirst {
     width: 210px;
@@ -1408,37 +1394,14 @@ td {
     transform: translate(120%, -30%);
     cursor: pointer;
   }
-  .main-top{
+  .main-top {
     position: absolute;
-    left:95px;
+    left: 95px;
   }
 
-  nav {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    width: 215px;
-    left: 0;
-    background: #fff;
-    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  }
-
-  /* #cancel2 {
-    margin-left: 35%;
-    padding: 1px;
-    font-family: "lato";
-  } */
-
-  .main2 h1{
-   position: absolute;
-   left:105px;
-    width: 60%;
-  }
-  #newproducts
-  {
-  position: absolute;
-  right: 50px;
+  #newproducts {
+    position: absolute;
+    right: 50px;
   }
   #productname {
     margin-top: 2%;
@@ -1487,5 +1450,131 @@ td {
 
   .main-body1 {
     overflow: scroll;
+  }
+  .main3 {
+    position: absolute;
+    margin-top: 38px;
+    width: 60%;
+    height: 30px;
+    left: 195px;
+  }
+  .cardcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .cardcontainer .card1 {
+    width: 500px;
+    height: 120px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    transform: translateX(7%);
+  }
+  .cardcontainer .card2 {
+    width: 500px;
+    height: 120px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    transform: translateX(7%);
+  }
+  .cardcontainer .card3 {
+    width: 500px;
+    height: 120px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    transform: translateX(7%);
+  }
+  .cardcontainer .card4 {
+    width: 500px;
+    height: 120px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    transform: translateX(7%);
+  }
+  .graph {
+    float: right;
+    transform: translateY(-75px);
+  }
+  .cardcontainer .card1 p {
+    padding-top: 8px;
+    color: #525252;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .cardcontainer .card2 p {
+    padding-top: 8px;
+    color: #525252;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .cardcontainer .card3 p {
+    padding-top: 8px;
+    color: #525252;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .cardcontainer .card4 p {
+    padding-top: 8px;
+    color: #525252;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  #amount {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .chartBox {
+    position: absolute;
+    width: 510px !important;
+    height: 220px !important;
+    padding: 20px;
+    border-radius: 5px;
+    left: 40px;
+    top: 580px;
+    background: #ffffff;
+  }
+  .main-body3 {
+    background: #fff;
+    position: absolute;
+    top: 1100px;
+    left: 40px;
+    width: 110%;
+    height: 400px;
+    overflow: scroll;
+  }
+  #Table1 th {
+    padding-top: 10px;
+  }
+  .latestorderborder1 {
+    border-color: #eaecf0;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px 0px 1px 0px;
+    transform: translatey(28px);
+    width: 820px;
+  }
+
+  #progressChart {
+    position: absolute;
+    left: 40px;
+    top: 830px;
+    height: 240px;
+    width: 510px;
+    border-radius: 5px;
+    background: #ffffff;
+  }
+  .main-top3 h1 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 10px;
+    font-family: "Lato";
+    color: #292929;
+    margin-left: 11%;
   }
 }
