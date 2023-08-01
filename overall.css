@@ -74,15 +74,6 @@ a {
   transform: translateX(-15px);
 }
 
-/* #set {
-  position: relative;
-  bottom: 3px;
-  left: 15px;
-}  */
-
-/* .iconwa {
-  transform: translate(40px, -6px);
-} */
 #house {
   transform: translateX(-12px);
   position: relative;
@@ -179,7 +170,7 @@ a:hover {
 .main {
   position: absolute;
   height: fit-content;
-  margin-left: 17%;
+  left: 17%;
   top: 44px;
 }
 .main-top h1 {
@@ -209,29 +200,33 @@ a:hover {
   color: #292929;
   font-family: "Lato";
 }
-.main2 {
+.main2 h1 {
   position: absolute;
-  margin-top: 40px;
-  width: 81%;
-  height: 30px;
-  margin-left: 17%;
+  margin-top: 80px;
+  width: 65%;
+  background-color: #369eff;
+  height: 60px;
+  color: #ffffff;
+  padding: 10px;
+  margin-left: 21%;
+  border-radius: 10px;
+  border: 1px solid #369eff;
 }
-.main-top2 h1 {
+
+/* .main-top2 h1 {
   font-size: 22px;
   font-weight: 700;
-  padding-top: 10px;
+  padding-top:10px;
   color: #292929;
   font-family: "Lato";
-}
-.main-top2 {
-  transform: translateX(2%);
-}
+} */
+
 .main3 {
   position: absolute;
   margin-top: 38px;
   width: 82%;
   height: 30px;
-  margin-left: 16%;
+  left: 200px;
 }
 .main-top3 h1 {
   font-size: 22px;
@@ -241,11 +236,12 @@ a:hover {
   color: #292929;
   margin-left: 4%;
 }
+
 .cardcontainer {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin-top: 20px;
-  margin-left: 1%;
+  margin-left: 12px;
 }
 .cardcontainer .card1 {
   width: 270px;
@@ -253,7 +249,7 @@ a:hover {
   background: #fff;
   border-radius: 5px;
   padding: 20px;
-  transform: translateX(8%);
+  transform: translateX(7%);
 }
 .cardcontainer .card2 {
   width: 270px;
@@ -261,7 +257,7 @@ a:hover {
   background: #fff;
   border-radius: 5px;
   padding: 20px;
-  transform: translateX(12%);
+  transform: translateX(11%);
 }
 .cardcontainer .card3 {
   width: 270px;
@@ -269,7 +265,7 @@ a:hover {
   background: #fff;
   border-radius: 5px;
   padding: 20px;
-  transform: translateX(16%);
+  transform: translateX(15%);
 }
 .cardcontainer .card4 {
   width: 270px;
@@ -277,7 +273,7 @@ a:hover {
   background: #fff;
   border-radius: 5px;
   padding: 20px;
-  transform: translateX(20%);
+  transform: translateX(19%);
 }
 .graph {
   float: right;
@@ -310,10 +306,6 @@ a:hover {
 #amount {
   font-size: 24px;
   font-weight: 700;
-}
-
-.bagraph {
-  display: flex;
 }
 
 .latestorder1 {
@@ -374,8 +366,9 @@ a:hover {
   margin-top: 111px;
   margin-left: 235px;
   margin-bottom: 1%;
-  width: 1667px;
-  height: 120%;
+  width: 1000px;
+  height: 125%;
+  border-radius: 18px;
   background: #fff;
 }
 .main-body3 {
@@ -605,7 +598,7 @@ input[type="text"]::placeholder {
 }
 #productname {
   margin-top: 2%;
-  width: 500px;
+  width: 880px;
   height: 30px;
 }
 #name {
@@ -632,9 +625,17 @@ input[type="text"]::placeholder {
 #textarea1 {
   height: 60px;
   margin-top: 1%;
+  width: 880px;
+  margin-left: 1%;
+}
+#textarea3 {
+  height: 60px;
+  margin-top: 1%;
+  width: 880px;
 }
 #textarea {
   margin-top: 1%;
+  width: 880px;
 }
 #price {
   font-weight: 700;
@@ -642,7 +643,7 @@ input[type="text"]::placeholder {
   font-family: "Lato";
   color: #292929;
   margin-top: 4%;
-  margin-left: 2%;
+  margin-left: 5%;
   width: fit-content;
 }
 .pricing {
@@ -650,13 +651,13 @@ input[type="text"]::placeholder {
   gap: 2%;
   width: 48%;
   margin-top: 2%;
-  margin-left: 2%;
+  margin-left: 5%;
 
   height: 10%;
 }
 #productprice {
   height: 30px;
-  width: 260px;
+  width: 450px;
   margin-top: 2%;
 }
 #subpr,
@@ -671,7 +672,7 @@ input[type="text"]::placeholder {
   gap: 2%;
   width: 48%;
   margin-top: 2%;
-  margin-left: 2%;
+  margin-left: 5%;
   height: 10%;
 }
 #sku {
@@ -687,10 +688,14 @@ input[type="text"]::placeholder {
   color: #000000;
   transform: translateX(20%);
 }
+#sku2,
+#sku3 {
+  margin-left: 1%;
+}
 
 .imagecontainer {
   width: 49%;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 .alt_text {
   transform: translateX(10%);
@@ -712,7 +717,7 @@ input[type="text"]::placeholder {
 }
 #ordernum {
   height: 30px;
-  width: 140px;
+  width: 300px;
   margin-top: 3%;
   margin-left: 20%;
 }
@@ -733,16 +738,18 @@ input[type="text"]::placeholder {
 }
 .pagetitle {
   margin-top: 4%;
+  margin-left: 5%;
 }
 #productprice1 {
   height: 30px;
-  width: 245px;
+  width: 435px;
   margin-top: 1%;
 }
 #productprice2 {
   height: 30px;
-  width: 500px;
+  width: 880px;
   margin-top: 1%;
+  margin-left: 1%;
 }
 .metades {
   margin-top: 4%;
@@ -849,12 +856,25 @@ input[type="submit"] {
   font-family: "lato";
 }
 #cancel2 {
-  margin-left: 24%;
   padding: 1px;
   font-family: "lato";
 }
+.buttonsave {
+  position: relative;
+  right: 55px;
+  top: 3px;
+}
+.buttoncancel {
+  position: relative;
+  right: 60px;
+  top: 3px;
+}
+.buttonaddproduct {
+  display: flex;
+  justify-content: end;
+  gap: 4px;
+}
 #save2 {
-  margin-left: 1%;
   background-color: #475be8;
   color: white;
   font-family: "lato";
@@ -867,7 +887,7 @@ input[type="submit"] {
 
 #newproduct {
   position: absolute;
-  right: 0;
+  right: 35px;
   top: 0;
   background-color: #475be8;
   color: white;
@@ -881,12 +901,12 @@ input[type="submit"] {
 }
 #newproducts {
   position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #475be8;
-  color: white;
+  right: 230px;
+  top: 90px;
+  background-color: white;
+  color: #309cff;
   font-family: "lato";
-  border: 1px solid #c3c6d1;
+  border: 1px solid #309cff;
   width: 113px;
   height: 41px;
   gap: 23px;
@@ -905,8 +925,8 @@ input[type="submit"] {
 }
 .Addproducts {
   width: fit-content;
-  margin-top: 2%;
-  margin-left: 2%;
+  margin-top: 10%;
+  margin-left: 5%;
   color: #292929;
   font-weight: 700;
   font-size: 16px;
@@ -962,17 +982,16 @@ input[type="submit"] {
 .delete {
   cursor: pointer;
 }
-.delete:hover
-{
+.delete:hover {
   border-radius: 10px;
-  background-color:#e4e7eb;
+  background-color: #e4e7eb;
 }
 .edit {
   cursor: pointer;
 }
-.edit:hover{
+.edit:hover {
   border-radius: 10px;
-  background-color:#e4e7eb;
+  background-color: #e4e7eb;
 }
 th {
   /* background: #f2f4ff; */
@@ -1300,7 +1319,7 @@ td {
 
 #progressChart {
   position: absolute;
-  right: 0px;
+  left: 750px;
   top: 190px;
   height: 220px;
   border-radius: 5px;
@@ -1315,20 +1334,29 @@ td {
     color: #292929;
     font-family: "Lato";
   }
+  .main-top1 h1
+  {
+    position: absolute;
+    left:15px;
+  }
   .main {
     position: absolute;
     height: fit-content;
     left: 16%;
     top: 44px;
-    display: none;
   }
   .main1 {
     margin-top: 40px;
-    width: 60%;
+    width: 69%;
     height: 30px;
-    left: 18%;
-    display: none;
+    left: 12%;
   }
+  #newproduct {
+    position: absolute;
+    right: 0px;
+    top: 0;
+  }
+
 
   #pfirst {
     width: 210px;
@@ -1380,6 +1408,11 @@ td {
     transform: translate(120%, -30%);
     cursor: pointer;
   }
+  .main-top{
+    position: absolute;
+    left:95px;
+  }
+
   nav {
     position: fixed;
     top: 0;
@@ -1390,56 +1423,68 @@ td {
     background: #fff;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
   }
-  .main2 {
-    /* position: fixed; */
-    margin-top: 40px;
-    width: 60%;
-    height: 30px;
-    left: 18%;
-    display: none;
-  }
-  #cancel2 {
+
+  /* #cancel2 {
     margin-left: 35%;
     padding: 1px;
     font-family: "lato";
+  } */
+
+  .main2 h1{
+   position: absolute;
+   left:105px;
+    width: 60%;
+  }
+  #newproducts
+  {
+  position: absolute;
+  right: 50px;
   }
   #productname {
     margin-top: 2%;
-    width: 380px;
+    width: 490px;
     height: 30px;
   }
   #textarea {
     margin-top: 1%;
-    width: 380px;
+    width: 490px;
   }
   #textarea1 {
     height: 60px;
     margin-top: 1%;
-    width: 380px;
+    width: 490px;
   }
+  #textarea3 {
+    height: 60px;
+    margin-top: 1%;
+    width: 490px;
+  }
+
   #productprice {
     height: 30px;
-    width: 186px;
+    width: 220px;
     margin-top: 2%;
   }
   #ordernum {
     height: 30px;
-    width: 138px;
+    width: 180px;
     margin-top: 3%;
   }
   #productprice1 {
     height: 30px;
-    width: 380px;
+    width: 245px;
     margin-top: 1%;
   }
-  .main-body2 {
-    margin-top: 111px;
-    margin-bottom: 1%;
-    width: 1667px;
-    height: 120%;
-    background: #fff;
-    display: none;
+  #productprice2 {
+    height: 30px;
+    width: 490px;
+    margin-top: 1%;
+    margin-left: 1%;
   }
+  .latestorderborder {
+    max-width: 850px;
+  }
+
   .main-body1 {
     overflow: scroll;
   }
